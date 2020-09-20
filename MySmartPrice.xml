@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySmartPriceSuite">
+  <test thread-count="5" name="MySmartPriceTest">
+    <parameter name="browserVal" value="firefox"></parameter>
+    <classes>
+      <class name="com.mysmartprice.testngtests.MSP_TestNGTests"/>
+    </classes>
+  </test> <!-- MySmartPriceTest -->
+</suite> <!-- MySmartPriceSuite -->
